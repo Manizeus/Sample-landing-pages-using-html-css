@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+
+         *{
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+            font-variant: small-caps;
+         }
+
+        .nav{
+            
+            background-color:black;
+            width: 100%;
+            height: 50px;
+            border: 1px solid rgb(0, 0, 0);
+
+        }
+
+
+        .nav span{
+            color: aliceblue;
+            font-family: sans-serif;
+            font-size: medium;
+            font-weight: bold;
+            margin-left: 10px;
+            line-height: 50px;
+        }
+        
+        .back:hover{
+                background-image: url("https://images.hdqwalls.com/wallpapers/lamborghini-urus-graphite-capsule-4k-ok.jpg");
+
+           }
+
+
+        .back{
+                 height: 210px;
+                 background-image: url("https://images.pexels.com/photos/8237007/pexels-photo-8237007.jpeg?cs=srgb&dl=pexels-supreet-8237007.jpg&fm=jpg");     
+
+              /*  background-image: url("https://images.hdqwalls.com/wallpapers/lamborghini-urus-graphite-capsule-4k-ok.jpg"); */ 
+                 background-position: center;   
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 
+                animation-duration: 5s;
+                animation-name: changeShadow;
+                animation-iteration-count: infinite;
+        } 
+
+        .box{
+            float: left;
+            width: 40%;
+            box-shadow: 3px 3px 3px 3px gainsboro;
+            border-radius: 5px;
+            margin-left: 25px;
+            margin-top:20px
+            
+        }
+        
+        @keyframes changeShadow {
+       from {
+              background-image: url("https://images.pexels.com/photos/8237007/pexels-photo-8237007.jpeg?cs=srgb&dl=pexels-supreet-8237007.jpg&fm=jpg");
+            }
+        to {
+         background-image: url("https://images.hdqwalls.com/wallpapers/lamborghini-urus-graphite-capsule-4k-ok.jpg");
+
+           }
+}
+
+        .img{
+            width: 100%;
+        }
+        .des{
+            text-align: center;
+        }
+        
+        .box:hover{
+             box-shadow: 3px 3px 3px 3px #42fcfc;
+         }
+    
+
+        @media screen and (min-width:400px) {
+            .back{
+                height: 500px;
+            }
+
+            .box{
+                margin-left: 100px;
+                margin-top: 30px;
+            }
+        }
+        
+        
+       
+    </style>
+</head>
+<body>
+ <div class="nav">
+         <span>Lamborghini</span>
+
+ </div>
+
+
+ <div class="back">
+
+ </div>
+
+
+ <div class="container">
+         <div class="box">
+                <img class="img" src="https://c4.wallpaperflare.com/wallpaper/117/990/410/lamborghini-urus-4k-8k-wallpaper-preview.jpg" alt="">
+                <div class="des">
+                    <span>urus</span>
+                </div>
+         </div>
+
+         <div class="box">
+            <img class="img" src="https://c4.wallpaperflare.com/wallpaper/117/990/410/lamborghini-urus-4k-8k-wallpaper-preview.jpg" alt="">
+
+            <div class="des">
+                <span>aventador</span>
+                </div>
+         </div>
+          
+         
+
+         <div class="box">
+            <img class="img" src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Lamborghini/Huracan-EVO/9276/Lamborghini-Huracan-EVO-Tecnica/1678695565996/front-left-side-47.jpg" alt="">
+            <div class="des">
+                <span>huracan</span>
+            </div>
+     </div>
+
+         <div class="box">
+            <img class="img" src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Lamborghini/Huracan-EVO/9276/Lamborghini-Huracan-EVO-Tecnica/1678695565996/front-left-side-47.jpg" alt="">
+            <div class="des">
+                <span>huracan</span>
+            </div>
+     </div>
+
+
+     <div class="box">
+        <img class="img" src="https://media.zigcdn.com/media/content/2023/Jun/cover_64941e75c10ae_640x480.jpg" alt="">
+        <div class="des">
+            <span>huracan</span>
+        </div>
+ </div>
+
+     <div class="box">
+        <img class="img" src="https://media.zigcdn.com/media/content/2023/Jun/cover_64941e75c10ae_640x480.jpg" alt="">
+        <div class="des">
+            <span>huracan</span>
+        </div>
+ </div>
+   
+ </div>
+
+</body>
+</html>
